@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TurismoFinal</string>
+    <string name="resenahoteles">Contamos con todos los protocolos de bioseguridad para brindarte una experiencia llena de encanto.
+</string>
+    <string name="resenaRestaurantes">
+       En este magico restaurante encontraras una variedad de sabores que haran que tu paladar tenga una explosion de sabores, contamos con
+        platos desde 13.900 para ti y toda tu familia.
+    </string>
+    <string name="resenaSitiosTuristicos">
+        Contamos con paisajes de ensueños, donde puedes ver el atardecer y ser crear momentos maravillosos junto a los tuyos.
+    </string>
+    <string name="opcion1">Ingles</string>
+    <string name="opcion2">Español</string>
+    <string name="opcion3">Italiano</string>
+    <string name="opcion4">Acerca de</string>
+
+    <string name="botonHoteles" translatable="false">Hoteles</string>
+    <string name="botonRestaurantes" translatable="false">Restaurantes</string>
+    <string name="botonTurismo" translatable="false">Sitios Turisticos</string>
+</resources>
