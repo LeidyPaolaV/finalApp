@@ -23,6 +23,8 @@ public class Home extends AppCompatActivity {
 
     TextView nombreCliente;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
