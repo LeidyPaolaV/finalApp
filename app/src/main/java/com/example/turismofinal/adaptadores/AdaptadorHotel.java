@@ -57,13 +57,23 @@ public class AdaptadorHotel extends RecyclerView.Adapter<AdaptadorHotel.viewHold
                              contactoHotel=itemView.findViewById(R.id.contactoListaHotel);
         }
 
-        public void actualizarDatos(moldes.MoldeHotel moldeHotel) {
+        public void actualizarDatos(MoldeHotel moldeHotel) {
             fotoHotel.setImageResource(moldeHotel.getFoto());
             nombreHotel.setText(moldeHotel.getNombre());
-            precioHotel.setText(moldeHotel.getprecioHotel);
-            contactoHotel.setText(moldeHotel.getcontactoHotel);
-
+            precioHotel.setText(moldeHotel.getPrecio());
+            contactoHotel.setText(moldeHotel.);
         }
     }
 }
+//un package es una carpeta que guarda clases
+//adaptador: crea copias del molde y java
+//apunadores en memoria: permiten que apunte a distintos sectores de la memoria
+//un arreglo indexado son aquellos numeros con los cuales se conocen las variables, van desde cero
+//lista dinamica: lista que cambia de tamaño de acuerdo a los elementos que lleguen
+//array list : arreglo de longitud variable
+//recycle view permite sacar las copias de la lista
+//on createview holder es la parte del adaptador que dice: cree un elemento grafico>>>>> estara ascociado a un elemento grafico y lo pone en la lista
+// infalter : expandir
+//viewHolder: pinta un solo elemento
+// itemView.findViewById():::: relaciona foto con id
 

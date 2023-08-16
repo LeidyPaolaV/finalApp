@@ -29,5 +29,33 @@ public class MoldeHotel extends AppCompatActivity {
 
     public String getNombre (){return nombre;}
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(String precio) {
+        this.precio = precio;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    public Integer getFoto() {
+        return foto;
+    }
+
+    public void setFoto(Integer foto) {
+        this.foto = foto;
+    }
+}
 
 }
