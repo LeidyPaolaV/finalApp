@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.turismofinal.R;
+
 import java.util.ArrayList;
 
 public class AdaptadorRestaurante {
@@ -25,15 +27,14 @@ public class AdaptadorRestaurante {
     }
 
     @NonNull
-    @Override
-    public AdaptadorHotel.viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         //esta parte de codigo permite crear N copias del molde grafico
         View vista= LayoutInflater.from(parent.getContext()).inflate(R.layout.moldehotel,null,false);
         return new AdaptadorRestaurante.viewHolder(vista);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull adaptadorHoteles.viewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull AdaptadorHotel.viewHolder holder, int position) {
         holder.actualizarDatos(ListaHoteles.get(position));
 
     }

@@ -51,17 +51,17 @@ public class AdaptadorHotel extends RecyclerView.Adapter<AdaptadorHotel.viewHold
         TextView contactoHotel;
         public viewHolder(@NonNull View itemView) {
             super(itemView);
-                    fotoHotel=itemView.findViewById(R.id.fotoListaHotel);
-                    nombreHotel=itemView.findViewById(R.id.nombreHotel);
-                     precioHotel=itemView.findViewById(R.id.precioHotel);
-                             contactoHotel=itemView.findViewById(R.id.contactoListaHotel);
+                    fotoHotel=itemView.findViewById(R.id.fotohotel);
+                    nombreHotel=itemView.findViewById(R.id.nombrelistahotel);
+                     precioHotel=itemView.findViewById(R.id.preciolistahotel);
+                             contactoHotel=itemView.findViewById(R.id.contactolistahotel);
         }
 
-        public void actualizarDatos(MoldeHotel moldeHotel) {
-            fotoHotel.setImageResource(moldeHotel.getFoto());
-            nombreHotel.setText(moldeHotel.getNombre());
-            precioHotel.setText(moldeHotel.getPrecio());
-            contactoHotel.setText(moldeHotel.);
+        public void actualizarDatos(moldes.MoldeHotel moldeHotel) {
+            fotoHotel.setImageResource( moldeHotel.getFoto());
+            nombreHotel.setText( moldeHotel.getNombre());
+            precioHotel.setText( moldeHotel.getPrecio());
+            contactoHotel.setText( moldeHotel);
         }
     }
 }
