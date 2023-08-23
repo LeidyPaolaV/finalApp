@@ -21,10 +21,11 @@ public class HotelesHome extends AppCompatActivity {
         botonhoteles.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(HotelesHome.this,ListaHoteles.class);
+                Intent intent= new Intent(hotelesHome.this,.class);
                 startActivity(intent);
 
             }
         });
     }
 }
+
